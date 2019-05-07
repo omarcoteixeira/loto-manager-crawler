@@ -1,0 +1,1 @@
+# loto-manager-crawler
