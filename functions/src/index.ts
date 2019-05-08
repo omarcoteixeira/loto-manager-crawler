@@ -45,6 +45,6 @@ export const crawlers = functions
         Buffer.from(message.data, 'base64').toString()
     );
     
-    const draw = await saveCurrentDraw(data);
-    return savePreviousDraw(data, draw);
+    const currentDraw = await saveCurrentDraw(data);
+    return savePreviousDraw(data, currentDraw);
 });
