@@ -27,10 +27,10 @@ const saveCurrentDraw = async (data: any) => {
     return draw;
 }
 
-const savePreviousDraw = async (data: any, draw: Draw) => {
+const savePreviousDraw = async (data: any, currentDraw: Draw) => {
     const previousDraw = await getDraw(
         data, 
-        parseInt(draw.number) - 1
+        parseInt(currentDraw.number) - 1
     );
 
     return saveDraw(data, previousDraw);
