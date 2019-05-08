@@ -1,7 +1,7 @@
 import * as functions from 'firebase-functions';
 import * as request from "request-promise-native";
 import { Firestore } from '@google-cloud/firestore';
-import { Draw } from './models/Draw';
+import { Draw } from './model/Draw';
 
 const firestore = new Firestore();
 
