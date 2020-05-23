@@ -17,7 +17,7 @@
     "firebase-functions": "^3.6.1",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
-    "https-proxy-agent": ">=2.2.3"
+    "https-proxy-agent": "5.0.0"
   },
   "devDependencies": {
     "tslint": "^5.20.1",
